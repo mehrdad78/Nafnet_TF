@@ -73,7 +73,7 @@ train:
 
   # losses
   pixel_opt:
-    type: PSNRLoss
+    type: BCELoss
     loss_weight: 1
     reduction: mean
 
